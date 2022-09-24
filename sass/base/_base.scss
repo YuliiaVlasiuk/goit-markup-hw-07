@@ -1,0 +1,43 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	color: var(--main-text-color);
+	font-family: "Roboto", sans-serif;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.li {
+	text-align: center;
+}
+.header {
+        border-bottom: 1px solid var(--header);       
+} 
+.heared__container {
+	    display: flex;
+        align-items: center;
+     }
+.section {
+        @include section;
+        color: var(--main-text-color);
+ }
+.section--second-backgraund-color {
+            background-color: var(--second-backgraund-color);
+        }
+.section__title {
+            color: var(--main-text-color);
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.17;
+            text-align: center;
+            margin-bottom: 50px;
+     }
+
+
+
+    
