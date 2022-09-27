@@ -2,9 +2,11 @@
 	display: flex;
 	gap: 30px;
 }
+
 .action__item {
 	position: relative;
 }
+
 .action__image {
 	display: flex;
 	justify-content: center;
@@ -16,6 +18,7 @@
 	height: 70px;
 	width: 100%;
 }
+
 .action__title {
 	font-weight: 700;
 	font-size: 14px;

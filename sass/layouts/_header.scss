@@ -1,9 +1,9 @@
 .contacts {
-        display: flex;
-        gap: 50px;
-        align-items: center;
-        margin-left: auto;
-    }
+	display: flex;
+	gap: 50px;
+	align-items: center;
+	margin-left: auto;
+}
 
 .contacts__link {
 	display: flex;
@@ -20,11 +20,12 @@
 	padding-bottom: 32px;
 	position: relative;
 	transition: color 250ms var(--timing-function), fill 250ms var(--timing-function);
-    &:hover,
-    &:focus {
-        fill: var(--blue-color);
-        color: var(--blue-color);
-    }
+
+	&:hover,
+	&:focus {
+		fill: var(--blue-color);
+		color: var(--blue-color);
+	}
 }
 
 .contacts__icon {

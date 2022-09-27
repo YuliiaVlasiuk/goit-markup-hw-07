@@ -10,11 +10,13 @@
 	opacity: 1;
 	transition: opacity 250ms var(--timing-function), visibility 250ms var(--timing-function);
 }
+
 .backdrop.is-hidden {
 	opacity: 0;
 	pointer-events: none;
 	visibility: hidden;
 }
+
 .modal {
 	width: 528px;
 	height: 581px;
@@ -26,6 +28,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
 .modal-btn {
 	position: absolute;
 	top: 8px;
@@ -42,16 +45,20 @@
 	align-items: center;
 	cursor: pointer;
 }
+
 .close {
 	transition: fill 250ms var(--timing-function);
 }
+
 .close-img {
 	width: 18px;
 	height: 18px;
 }
-.modal-btn:hover > .close-img > .close {
+
+.modal-btn:hover>.close-img>.close {
 	fill: var(--blue-color);
 }
+
 /**
   |============================
   | form
@@ -62,6 +69,7 @@
 	margin: 0 auto;
 	height: 100%;
 }
+
 .form-group {
 	display: flex;
 	justify-content: center;
@@ -75,7 +83,7 @@
 
 	position: relative;
 
-    &:last-child {
+	&:last-child {
 		margin-bottom: 20px;
 	}
 }
@@ -87,14 +95,16 @@
 	height: 40px;
 	outline: transparent;
 	transition: border-color 250ms var(--timing-function);
-	
-    &:focus {
+
+	&:focus {
 		border-color: var(--blue-color);
 	}
+
 	&::placeholder {
 		color: var(--grey-color);
 	}
-	&:focus + .modal-icon {
+
+	&:focus+.modal-icon {
 		fill: var(--blue-color);
 	}
 }
@@ -102,12 +112,14 @@
 .form-label {
 	margin-bottom: 4px;
 }
+
 .comment {
 	resize: none;
 	height: 120px;
 	width: 100%;
 	padding: 12px 16px;
 }
+
 .name-of-form {
 	display: block;
 	font-weight: 700;
@@ -118,6 +130,7 @@
 	text-align: center;
 	margin-bottom: 12px;
 }
+
 .modal-icon {
 	width: 18px;
 	height: 18px;
@@ -127,39 +140,48 @@
 
 	transition: fill 250ms var(--timing-function);
 }
+
 .submit-btn {
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .icon-svg {
 	width: 16px;
 	height: 15px;
 	margin-right: 10px;
 }
+
 .icon-check-svg {
 	opacity: 0;
 	transition: opacity 250ms var(--timing-function);
 }
+
 .icon-uncheck-svg {
 	opacity: 1;
 	transition: opacity 250ms var(--timing-function);
 }
-.checkbox:checked + .icon-svg .icon-check-svg {
+
+.checkbox:checked+.icon-svg .icon-check-svg {
 	opacity: 1;
 }
-.checkbox:checked + .icon-svg .icon-uncheck-svg {
+
+.checkbox:checked+.icon-svg .icon-uncheck-svg {
 	opacity: 0;
 }
-.checkbox:focus + .icon-svg {
+
+.checkbox:focus+.icon-svg {
 	outline: 1px solid var(--grey-color);
 }
+
 .form-group-agreement {
 	display: flex;
 	align-items: center;
 	margin-top: 20px;
 	justify-content: center;
 }
+
 .polici {
 	font-weight: 400;
 	font-size: 14px;
