@@ -5,7 +5,7 @@
 .details__item {
 	width: 270px;
 }
-.details__image {
+.details__box {
 	display: flex;
 	height: 120px;
 	background-color: var(--second-backgraund-color);
@@ -28,7 +28,7 @@
 	letter-spacing: 0.03em;
 	margin-bottom: 10px;
 }
-.details__about {
+.details__text {
 	color: var(--grey-color);
 	font-weight: 400;
 	font-size: 14px;
